@@ -3,37 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title that appears on the browser tab -->
     <title>PlayStation</title>
+    <!-- Links an external CSS file for styling the page -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- Adds a specific class to the body for page-specific styling -->
     <body class="playstation-page">
 
+    <!-- Navigation bar section with site name and navigation links -->
     <nav class="navbar">
         <div class="logo">ConsoleDNA</div>
+        <!-- Unordered list used to display nav links horizontally with CSS -->
         <ul class="nav-links">
+            <!-- 'a' tags are used to link between different HTML pages -->
             <li><a href="index.html">Home</a></li>
             <li><a href="playstation.html">PlayStation</a></li>
             <li><a href="xbox.html">Xbox</a></li>
             <li><a href="nintendo.html">Nintendo</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </nav>
 
+    <!-- Header section for the PlayStation page title -->
+    <section class="ps-head">
+        <h1>Explore Playstation</h1>
+    </section>
 
- <section class="ps-head">
-    <h1>Explore Playstation</h1>
- </section>
+    <!-- Hero banner image section using a .gif to grab attention -->
+    <section class="hero-image">
+        <img src="images/ps1img.gif" alt="PlayStation Banner">
+    </section>
 
-<section class="hero-image">
-    <img src="images/ps1img.gif" alt="PlayStation Banner">
-</section>
-
-
-<section class="intro-section">
-    <div class="intro-text">
-        <h1>About PlayStation</h1>
+    <!-- Introductory section with informative text and a list of console names -->
+    <section class="intro-section">
+        <div class="intro-text">
+            <!-- Main heading and subheadings introducing PlayStation history -->
+              <h1>About PlayStation</h1>
         <h3>
             PlayStation has been a pioneer in the gaming industry since its groundbreaking debut in 1994. Born from a collaboration between Sony and Nintendo that eventually went its own way, PlayStation has transformed the way the world experiences gaming. With a focus on powerful technology, cinematic storytelling, and unforgettable exclusive titles, Sony’s PlayStation consoles quickly became household names.
         </h3>
@@ -47,96 +55,131 @@
             This page explores the rich history, achievements, and unforgettable moments of the PlayStation brand — covering everything from the original PS1 to the latest advancements, as well as handheld devices and the future of gaming innovation.
             
         </h3>
-    </div>
+        </div>
 
-    <div class="console-list">
-        <h3>Consoles Explored:</h3>
-        <div class="console-item">PS1</div>
-        <div class="console-item">PS2</div>
-        <div class="console-item">PSP</div>
-        <div class="console-item">PS3</div>
-        <div class="console-item">PSVita</div>
-        <div class="console-item">PS4</div>
-        <div class="console-item">PSVR</div>
-        <div class="console-item">PS5</div>
-        <div class="console-item">PSVR2</div>
-        <div class="console-item">More...</div>
-    </div>
+        <!-- List of all PlayStation consoles using divs for block styling -->
+        <div class="console-list">
+            <h3>Consoles Explored:</h3>
+            <!-- Each item is a styled block using CSS (e.g., display: inline-block to look like buttons) -->
+            <div class="console-item">PS1</div>
+            <div class="console-item">PS2</div>
+            <div class="console-item">PSP</div>
+            <div class="console-item">PS3</div>
+            <div class="console-item">PSVita</div>
+            <div class="console-item">PS4</div>
+            <div class="console-item">PSVR</div>
+            <div class="console-item">PS5</div>
+            <div class="console-item">PSVR2</div>
+            <div class="console-item">More...</div>
+        </div>
+    </section>
+
+
+ <section class="ps-trailer-section">
+  <h2>Watch the PlayStation 5 Trailer</h2>
+  <div class="video-wrapper">
+    <iframe 
+      width="800" 
+      height="450" 
+      src="https://www.youtube.com/embed/U7w5i_YCFmQ" 
+      title="PlayStation 5 Showcase Trailer" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
 </section>
 
-<section class="console-full-page">
-    <div class="console-section">
-        <h2>PlayStation 1 (PS1)</h2>
+
+
+
+
+    <!-- Main section displaying details for each individual PlayStation console -->
+    <section class="console-full-page">
+
+        <!-- Console section: PS1. Includes release date, specs, and top games -->
+        <div class="console-section">
+            <h2>PlayStation 1 (PS1)</h2>
+            <!-- 'p' tags used for clear separation of content details -->
         <p><strong>Release:</strong> November 15, 1995 in Australia</p>
         <p><strong>Specs:</strong> The original PlayStation, released on December 3, 1994, marked Sony’s powerful entry into the gaming industry. Powered by a 32-bit MIPS R3000A processor running at 33.8688 MHz, it supported 360,000 polygons per second, bringing immersive 3D gaming to living rooms around the world. It featured 2 MB of RAM, 1 MB of video memory, and CD-ROM storage, allowing for larger and more detailed games compared to its cartridge-based rivals. The console supported crisp 24-bit color graphics and 16-bit audio with real-time sound effects.   </p>
         <p><strong>Popular Games:</strong> Popular games like Final Fantasy VII, Metal Gear Solid, Crash Bandicoot, and Gran Turismo helped establish the PlayStation as a gaming phenomenon. Interestingly, the PlayStation's creation stemmed from a failed collaboration with Nintendo, leading Sony to launch their own legendary gaming legacy.</p>
-    </div>
+        </div>
 
-    <div class="console-section">
+        <!-- PS2 section follows the same structure: title, release, specs, games -->
+           <div class="console-section">
         <h2>PlayStation 2 (PS2)</h2>
         <p><strong>Release:</strong> 2000</p>
         <p><strong>Specs:</strong> Emotion Engine CPU, DVD support, backward compatibility</p>
         <p><strong>Popular Games:</strong> GTA: San Andreas, God of War, Shadow of the Colossus</p>
     </div>
 
-    <div class="console-section">
+        <!-- Portable handheld version: PSP -->
+        <div class="console-section">
         <h2>PlayStation Portable (PSP)</h2>
         <p><strong>Release:</strong> 2004</p>
         <p><strong>Specs:</strong> Handheld console with a 4.3-inch LCD screen, UMD discs</p>
         <p><strong>Popular Games:</strong> God of War: Chains of Olympus, Daxter, Monster Hunter Freedom</p>
     </div>
 
-    <div class="console-section">
+
+        <!-- PlayStation 3 (PS3) section -->
+ <div class="console-section">
         <h2>PlayStation 3 (PS3)</h2>
         <p><strong>Release:</strong> 2006</p>
         <p><strong>Specs:</strong> Cell Broadband Engine, Blu-ray support, online gaming with PSN</p>
         <p><strong>Popular Games:</strong> The Last of Us, Uncharted 2, LittleBigPlanet</p>
     </div>
 
-    <div class="console-section">
-        <h2>PlayStation Vita</h2>
-        <p><strong>Release:</strong> 2011</p>
-        <p><strong>Specs:</strong> OLED touchscreen, rear touchpad, dual analog sticks</p>
-        <p><strong>Popular Games:</strong> Persona 4 Golden, Gravity Rush, Uncharted: Golden Abyss</p>
-    </div>
+        <!-- PlayStation Vita: Handheld console with touch features -->
+        <div class="console-section">
+            <h2>PlayStation Vita</h2>
+            <p><strong>Release:</strong> 2011</p>
+            <p><strong>Specs:</strong> OLED touchscreen, rear touchpad, dual analog sticks</p>
+            <p><strong>Popular Games:</strong> Persona 4 Golden, Gravity Rush...</p>
+        </div>
 
-    <div class="console-section">
-        <h2>PlayStation 4 (PS4)</h2>
-        <p><strong>Release:</strong> 2013</p>
-        <p><strong>Specs:</strong> 8-core AMD Jaguar CPU, 8GB GDDR5 RAM, HDR and 4K support (Pro model)</p>
-        <p><strong>Popular Games:</strong> God of War, Spider-Man, Horizon Zero Dawn</p>
-    </div>
+        <!-- PS4 main console generation -->
+        <div class="console-section">
+            <h2>PlayStation 4 (PS4)</h2>
+            <p><strong>Release:</strong> 2013</p>
+            <p><strong>Specs:</strong> 8-core AMD Jaguar CPU, 8GB RAM...</p>
+            <p><strong>Popular Games:</strong> God of War, Spider-Man...</p>
+        </div>
 
-    <div class="console-section">
+        <!-- PS4 Pro with enhanced specs -->
+        <div class="console-section">
         <h2>PlayStation 4 Pro</h2>
         <p><strong>Release:</strong> 2016</p>
         <p><strong>Specs:</strong> Enhanced GPU for 4K gaming, boosted frame rates, HDR support</p>
         <p><strong>Popular Games:</strong> Red Dead Redemption 2, The Last of Us Part II, Ghost of Tsushima</p>
     </div>
 
-    <div class="console-section">
-        <h2>PlayStation 5 (PS5)</h2>
-        <p><strong>Release:</strong> 2020</p>
-        <p><strong>Specs:</strong> Custom SSD, Ray tracing support, 4K gaming at 120fps, DualSense controller</p>
-        <p><strong>Popular Games:</strong> Demon's Souls, Ratchet & Clank: Rift Apart, Spider-Man: Miles Morales</p>
-    </div>
+        <!-- PlayStation 5 (PS5): Next-gen console -->
+        <div class="console-section">
+            <h2>PlayStation 5 (PS5)</h2>
+            <p><strong>Release:</strong> 2020</p>
+            <p><strong>Specs:</strong> Custom SSD, Ray tracing support...</p>
+            <p><strong>Popular Games:</strong> Demon's Souls, Spider-Man: Miles Morales...</p>
+        </div>
 
-    <div class="console-section">
+        <!-- Digital Edition of PS5 without disc drive -->
+        <div class="console-section">
         <h2>PlayStation 5 Digital Edition</h2>
         <p><strong>Release:</strong> 2020</p>
         <p><strong>Specs:</strong> Same as PS5, but without a physical disc drive (digital downloads only)</p>
         <p><strong>Popular Games:</strong> Returnal, Horizon Forbidden West, Resident Evil Village</p>
     </div>
 
-    <div class="console-section">
+<div class="console-section">
         <h2>PlayStation VR2</h2>
         <p><strong>Release:</strong> 2023</p>
         <p><strong>Specs:</strong> OLED display, 4K HDR visuals, advanced eye tracking and haptic feedback</p>
         <p><strong>Popular Games:</strong> Horizon Call of the Mountain, Resident Evil Village VR, Gran Turismo 7 VR</p>
     </div>
-</section>
 
 
-    
+    </section>
+
 </body>
 </html>
